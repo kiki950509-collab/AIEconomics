@@ -33,7 +33,7 @@ if st.button("產生 AI 總體經濟摘要"):
                 
                 # 3. 呼叫模型生成內容 (使用 flash 模型兼顧速度與品質)
                 response = client.models.generate_content(
-                    model='gemini-2.5-flash',
+                    model='gemini-3.8-flash',
                     contents=prompt
                 )
                 
