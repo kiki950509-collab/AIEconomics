@@ -214,7 +214,7 @@ if st.button("產生 AI 總體經濟摘要", type="primary"):
                 """
                 
                 response = client.models.generate_content(
-                    model='gemini-2.5-flash',
+                    model='gemini-3.8-flash',
                     contents=prompt
                 )
                 
